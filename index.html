@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Profil content - Pierre Collinet</title>
+    <!-- Fontawesome Stylesheet -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+     <!-- Google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
+     <!-- My custom CSS -->
+     <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="card text-center">
+        <div class="reduce-container">
+          <img src="/images/pierre-profile.jpg" class="rnd-img dinamic-to-round" alt="Photo profil - Pierre">
+          <h1>Pierre Collinet</h1>
+          <h2>Programmer</h2>
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem omnis maxime iusto dolor maiores harum saepe nemo sint iure magni! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi vel reprehenderit, iure ipsam nulla alias quod voluptatem! Eum, aliquam odit ea tenetur autem quasi tempore. Velit id eos culpa ipsum.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Programmation Skills</h2>
+        <div class="center-content text-center">
+          <ul class="inline-list">
+            <li><a href=""><i class="fa fa-css3 fa-3x" aria-hidden="true"></i><br>CSS3</a></li>
+            <li><a href=""><i class="fa fa-html5 fa-3x" aria-hidden="true"></i><br>Twitter</a></li>
+            <li><a href=""><i class="fa fa-github fa-3x" aria-hidden="true"></i><br>Github</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card text-center">
+        <h2>Projects</h2>
+        <table>
+          <tr>
+            <th class="th-3">Websites</th>
+            <th class="th-3">Images</th>
+            <th class="th-3">Description</th>
+          </tr>
+          <tr>
+            <td><a href="http://www.blocusassistance.be/">Blocus Assistance</a></td>
+            <td><img src="/images/blocusassistance.jpg" alt="Blocus Assistance picture" width="150"></td>
+            <td class="text-left">Destiné à aider les étudiants de BA1 à réussir à l'université</td>
+          </tr>
+          <tr>
+            <td><a href="http://www.leclubdesdevoirs.be/">Le Club des Devoirs</a></td>
+            <td><img src="/images/cdd-logo.png" alt="Le club des devoirs logo" width="150"></td>
+            <td class="text-left">Destiné à aider les jeunes sportifs à réaliser leurs tâches scolaires en combinant habillement leurs entrainements</td>
+          </tr>
+          <tr>
+            <td><a href="http://www.angieskitchen.be/">Angie's Kitchen</a></td>
+            <td><img src="/images/ak-image.JPG" alt="Angie's Kitchen image" width="150"></td>
+            <td class="text-left">Site traiteur pour organiser vos évènements (professionnels, privés, cours de cuisine, chef à domicile,...)</td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="contact" class="card text-center">
+        <div class="reduce-container">
+          <h2>Get it touch...</h2>
+          <div>
+            <form action = "https://formspree.io/pi.collinet@gmail.com" method="POST">
+              <input type="text" id="fname" name="firstname" placeholder="Prénom">
+
+              <input type="text" id="lname" name="lastname" placeholder="Nom">
+
+              <select id="goal" name="goal" class="select">
+                <option value="date">J'aimerais faire un date avec vous</option>
+                <option value="casagne">Je souhaiterais qu'on se batte. Quelles sont vos disponibilités?</option>
+                <option value="usa">Je m'ennuie à mourir, donc je viens fader sur ton profil</option>
+              </select>
+
+              <textarea class="textarea" name="message" rows="5" placeholder="Ecrivez votre message ici..."></textarea>
+
+              <input type="submit" value="Envoyer">
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+  </body>
+</html>
+<!-- end of file -->
